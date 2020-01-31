@@ -1,0 +1,21 @@
+{
+  "name": "@leaven/example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server ./dist/ --files ./dist/ --no-notify --no-open",
+    "build": "node build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "mustache": "^4.0.0",
+    "node-fs-extra": "^0.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
